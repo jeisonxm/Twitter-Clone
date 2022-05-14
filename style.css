@@ -1,0 +1,157 @@
+:root{
+  --text-color:rgb(214, 217, 219);
+  --blue-brand:rgb(29 155 240);
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-family: "Segoe UI";
+  background-color: black;
+  color: white;
+}
+main .main-header{
+  width: 100%;
+  height: fit-content;
+}
+main .main-header i {
+  font-size: 3.8rem;
+  margin: 30px;
+  color: var(--text-color);
+}
+
+.main-container{
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-tittle{
+  padding-right: 60px;
+  width: 100%;
+}
+.main-tittle h1{
+  font-family: inherit;
+  line-height: 5.2rem;
+  font-weight: 700;
+  font-size: 4.5rem;
+  margin-bottom: 30px;
+}
+.main-tittle h2{
+  font-family: inherit;
+  line-height: 2.8rem;
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+.main-buttons{
+  max-width: 304px;
+}
+button{
+  min-width: 264px;
+  min-height: 38px;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 7px auto;
+  border: none;
+  cursor: pointer;
+}
+
+.icon{
+  font-size: 1.7rem;
+  margin-right: 5px;
+}
+.main-button__apple .icon {
+  font-size: 2rem;
+}
+.main-buttons__separation{
+  display: flex;
+  justify-content: space-evenly;
+  width: 264px;
+}
+.main-buttons__separation span{
+  font-size: 1rem;
+}
+.main-buttons__separation p{
+  color: black;
+  text-decoration: line-through rgb(47 51 54);
+}
+.main-button__registration button{
+  background-color: var(--blue-brand);
+  color: white;
+  font-weight: 600;
+}
+.main-button__registration p{
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+.main-button__registration a{
+  color: var(--blue-brand);
+}
+.main-login{
+  margin-top: 60px;
+}
+.main-login h2{
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+}
+.main-login button{
+  background-color: black;
+  border: 1px solid #536471;
+  color: var(--blue-brand);
+  font-weight: 700;
+}
+.footer-logo{
+  width: 100%;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-logo span i{
+  font-size: 16rem;
+}
+.footer-nav--list{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin: 0 auto;
+}
+.footer-nav li a{
+  display: inline-block;
+  margin: 5px;
+  color: rgb(203, 206, 210);
+  font-size: 1.2rem;
+}
+footer .twitter-inc{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  color: rgb(203, 206, 210);
+  font-size: 1.2rem;
+}

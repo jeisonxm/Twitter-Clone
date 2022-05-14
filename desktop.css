@@ -1,0 +1,18 @@
+main{
+  display: flex;
+  justify-content: space-between; 
+}
+.main-container{
+  justify-content: start;
+  order: 2;
+  flex-grow: 3;
+}
+.footer-logo{
+  order: 1;
+  flex-flow: column;
+  width: 30%;
+  height: auto;
+}
+.main-buttons{
+  width: 100%;
+}
