@@ -10,8 +10,8 @@ main{
 .footer-logo{
   order: 1;
   flex-flow: column;
-  width: 30%;
-  height: auto;
+  width: 20%;
+  height: 630px;
 }
 .main-buttons{
   width: 100%;
